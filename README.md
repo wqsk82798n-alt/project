@@ -341,28 +341,55 @@ AnalysisEngine의 분석 결과를 바탕으로 클라이언트에게 보여줄 
 
 ## 4. User Interface prototype 
 <img width="885" height="1093" alt="비밀번호를 잊으셨나요" src="https://github.com/user-attachments/assets/f01aa975-bf4d-4700-ad65-bf260c9e77ca" />
+
 <img width="892" height="966" alt="비밀번호 확인" src="https://github.com/user-attachments/assets/a13b94f1-a149-4b3a-852d-bfda9d38d297" />
+
 <img width="1786" height="1546" alt="15,000원" src="https://github.com/user-attachments/assets/b7841bbf-3647-452d-82ff-4e71ca3fe5d1" />
+
 처음 시스템을 실행하면 로그인 및 회원가입 화면이 보인다. 
 비회원인 경우 회원가입을 눌러 가입을 하고, 회원인 경우 소셜 로그인나 이메일을 입력하면 다음 화면으로 넘어간다.
 
+
 <img width="1789" height="1538" alt="15,000원" src="https://github.com/user-attachments/assets/e4eecb84-94db-4736-817e-580045317d5d" />
+
 + 버튼을 누르면 지출 추가, 분석, 추천/피드백, 다운로드, 은행 연동, Q&A 버튼이 표시된다.
 또한 지출 내역을 펜 모양 버튼을 클릭해 수정할 수 있고, 휴지통 모양 버튼을 클릭해 삭제할 수 있다.
 
+
 <img width="1786" height="1542" alt="15,000원" src="https://github.com/user-attachments/assets/808e7d1d-18f4-4f7b-837e-c818cc222321" />
+
 지출 추가 버튼을 누르면 화면과 같이 나온다. 클라이언트가 날짜를 변경하고 싶다면 직접 변경이 가능하며 자동 분류 또는 수동 분류를 선택한다. 자동 분류를 선택했으면 금액을 입력하고 메모를 입력하고, 수동 분류를 선택했다면 카테고리와 금액을 입력한다.
 
+
 <img width="1770" height="1542" alt="3 가계부" src="https://github.com/user-attachments/assets/a4cf6343-d0af-45e9-8fa9-36d0c46a4c28" />
+
 분석 버튼을 클릭하면 화면과 같이 나온다. 막대 그래프, 원그래프를 보여주고, 통계 요약은 총 지출 건수, 평균 지출액, 가장 많이 쓴 카테고리 세 가지를 보여준다.
+
+<img width="1992" height="1661" alt="59,850원" src="https://github.com/user-attachments/assets/8198a891-3b44-4187-abcd-0bbd13fc7bc6" />
 
 추천&피드백 버튼을 클릭하면 화면과 같이 나온다.
 
+
+<img width="1786" height="1542" alt="15,000원" src="https://github.com/user-attachments/assets/3f1f0318-cc41-46c9-b3c0-fc8fbcc767c2" />
+
 다운로드 버튼을 클릭하면 화면과 같이 나온다. csv 파일로 기기에 저장된다.
+
+
+<img width="1784" height="1544" alt="8 가계부" src="https://github.com/user-attachments/assets/51b39e04-ffb5-48d0-b8be-583524542b6d" />
+
+<img width="1788" height="1546" alt="8 가계부" src="https://github.com/user-attachments/assets/c865c22f-b21c-4460-b2e0-9b68636dbb5c" />
 
 은행 연동 버튼을 클릭하면 화면과 같이 나온다. 연동하고 싶은 은행을 클릭하면 해당 은행의 지출 금액이 나타난다.
 
+
+<img width="1786" height="1542" alt="6 가계부" src="https://github.com/user-attachments/assets/c5ac58cc-446b-4363-af57-7ac33c657304" />
+
+<img width="1786" height="1542" alt="8 가계부" src="https://github.com/user-attachments/assets/b184b4ca-78d6-4ad0-a88f-7a6cda3db38f" />
+
 Q&A 버튼을 클릭하면 화면과 같이 나온다. 자주 묻는 질문 네 가지가 나오며, 그 외에 문의 사항이나 시스템에 관련된 피드백이 있다면 직접 질문하기 버튼을 클릭해 문의 내용을 입력 후 전송한다.
+
+
+<img width="1788" height="1544" alt=" 가계부" src="https://github.com/user-attachments/assets/33996a28-759f-4746-9138-819d9ba9899e" />
 
 설정 버튼을 클릭하면 예산 설정이 가능하다.
 
