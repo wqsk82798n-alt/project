@@ -6,6 +6,7 @@
 ## 2. Use case analysis
 
 ### 2-1. Use case diagram
+<img width="1381" height="1201" alt="Clent" src="https://github.com/user-attachments/assets/baa98910-804a-4734-a0bd-ac9b39088733" />
 
 시스템의 주 사용자로 가계부의 모든 입력 권한을 가지는 클라이언트 입장에서 시스템이 제공하는 주요 기능들을 정의하였다. 그리고 통계 시각화, 지출 패턴 분석, 예산 알림 등 데이터들을 관리하는 시스템 및 문의사항에 직접 답변하는 관리자와의 상호작용을 도식화하였다.
 
