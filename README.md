@@ -12,15 +12,25 @@
 ### 2-2. Use case description 
 
 **Use case # 1 : 회원가입 및 로그인**
+
 Summary - 클라이언트가 서비스를 사용하기 위해 본인 인증을 통해 계정을 생성하고, 시스템에 접속할 때 사용한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - client
+
 Precondition - 클라이언트가 앱을 실행한 상태여야 하며, 로그아웃 상태여야 한다.
+
 Trigger - 클라이언트가 앱을 최초로 실행하거나 로그아웃 후 시스템에 다시 접속을 시도할 때
+
 Success post condition - 인증의 완료되어 메인 화면으로 전환되며, 개인별 데이터 환경이 제공된다.
+
 Failed post condition - 로그인에 실패하고 로그인 화면에 머무르며, 오류 메시지가 표시된다.
 
 Main success scenario
@@ -41,14 +51,23 @@ Other
 
 **Use case # 2 :  지출 데이터 입력 및 수동/자동 분류**
 Summary - 사용자가 소비 내역을 입력하거나 외부 파일(CSV)을 업로드해 데이터 등록, 자동으로 분류할 때 사용
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - client, system
+
 Precondition - 클라이언트가 서비스에 접속한 상태여야 한다.
+
 Trigger - 클라이언트가 ‘지출 추가’ 버튼을 누른 후 자동 분류와 수동 분류 중 선택한다.
+
 Success post condition - 지출 데이터를 입력하고 수동 분류나 자동 분류를 이용시 원하는 카테고리로 분류가 되며, 오류가 발생하지 않는다.
+
 Failed post condition - 자동 분류를 이용 시 원하는 카테고리로 분류가 되지 않거나 지출 데이터를 입력하고 수동 분류를 할 때 오류가 발생한다.
 
 Main success scenario
@@ -71,14 +90,24 @@ Other - 모든 금액은 양의 정수여야 한다.
 
 **Use case # 3 : 지출 패턴 피드백**
 Summary - 저장된 지출 데이터를 바탕으로 피드백을 제공한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - system
+
 Precondition - 최소 1건 이상의 지출 데이터가 시스템에 저장되어 있어야 한다.
+
 Trigger - 클라이언트가 ‘추천/피드백’ 버튼을 클릭할 때
-Success post condition - ‘추천/피드백’ 버튼을 클릭하면 클라이언트가 확인하고 싶을 때 맞춤형 소비 개선 조언을 확인할 수 있다.
+
+Success post condition - ‘추천/피드백’ 버튼을 클릭하면 클라이언트가 확인하고 싶을 때 맞춤형 소비 개선 조언을 
+확인할 수 있다.
+
 Failed post condition - 데이터 분석에 실패하고, “데이터를 불러올 수 없습니다.” 라는 메시지를 띄운다.
 
 Main success scenario
@@ -97,14 +126,23 @@ Other
 
 **Use case # 4 : 예산 설정 및 초과 알림**
 Summary - 계획된 소비를 위해 사용자가 한 달 지출 한도를 설정하고, 총 지출액이 임계치에 도달하면 알림을 제공한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - client, system
+
 Precondition - 클라이언트가 로그인 상태이며, 예산 금액이 입력되어 있어야 한다.
+
 Trigger - 새로운 지출 데이터가 추가되어, 총 지출액이 입력된 예산에 도달할 때
+
 Success post condition - 클라이언트에게 초과 알림이 발송된다.
+
 Failed post condition - 알림 발송이 실패한다.
 
 Main success scenario
@@ -125,14 +163,23 @@ Other
 
 **Use case # 5 : 데이터 내보내기**
 Summary - 시스템에 저장된 데이터를 외부 파일(CSV)로 다운로드하여 다른 환경에 활용하거나 백업할 수 있도록 한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - client
+
 Precondition - 클라이언트가 로그인 상태이며, 시스템에 저장된 데이터가 존재해야 한다.
+
 Trigger - 클라이언트가 ‘다운로드’ 버튼을 클릭할 때
+
 Success post condition - 클라이언트가 지정한 데이터가 CSV 형태로 변환되어 다운로드 된다.
+
 Failed post condition - CSV 형태로 변환에 실패하고, “파일을 만들 수 없습니다.” 라는 오류 메시지를 띄운다.
 
 Main success scenario
@@ -153,14 +200,23 @@ Other
 
 **Use case # 6 : 통계 시각화**
 Summary - 사용자의 지금까지 입력한 재정 상태를 막대 그래프와 원그래프를 이용하여 직관적으로 제공하고, 통계 요약도 제공한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - system
+
 Precondition - 최소 1건 이상의 지출 데이터가 시스템에 저장되어 있어야 한다.
+
 Trigger - 클라이언트가 ‘분석’ 버튼을 클릭할 때
+
 Success post condition - ‘분석’ 버튼을 클릭하면 카테고리별 지출 통계 막대 그래프와 원 그래프 두 가지 버전을 제공하며, 통계 요약을 제공한다.
+
 Failed post condition - 데이터 분석에 실패하고, “데이터를 불러올 수 없습니다.” 라는 메시지를 띄운다.
 
 Main success scenario
@@ -180,14 +236,23 @@ Other
 
 **Use case # 7 : 문의 및 피드백**
 Summary - 사용자가 분석 결과에 대한 궁금증이나 시스템 개선 사항을 “Q&A” 버튼을 클릭해 등록하고, 답변을 확인할 때 사용한다.
+
 Scope /Level - 스마트 가계부 / User level
+
 Author
+
 Last update
+
 Status - analysis 
+
 Primary actor - manager, client
+
 Precondition - 사용자가 로그인 상태여야 한다.
+
 Trigger - 클라이언트가 ‘Q&A’ 버튼을 클릭 후 문의글을 등록할 때
+
 Success post condition - 문의글이 시스템에 등록되고, 관리자에게 알림이 가고, 관리자가 답변 시 클라이언트에게 알림이 제공된다.
+
 Failed post condition - 문의글 등록에 실패한다.
 
 Main success scenario
@@ -268,5 +333,7 @@ Q&A 버튼을 클릭하면 화면과 같이 나온다. 자주 묻는 질문 네 
 
 ## 6. References
 편한가계부 앱
+
 토스앱
+
 Analysis with examples
