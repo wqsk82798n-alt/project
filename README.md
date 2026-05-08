@@ -55,7 +55,9 @@ Concurrency - None
 
 Other
 
+
 **Use case # 2 :  지출 데이터 입력 및 수동/자동 분류**
+
 Summary - 사용자가 소비 내역을 입력하거나 외부 파일(CSV)을 업로드해 데이터 등록, 자동으로 분류할 때 사용
 
 Scope /Level - 스마트 가계부 / User level
@@ -99,7 +101,9 @@ Concurrency - None
 
 Other - 모든 금액은 양의 정수여야 한다.
 
+
 **Use case # 3 : 지출 패턴 피드백**
+
 Summary - 저장된 지출 데이터를 바탕으로 피드백을 제공한다.
 
 Scope /Level - 스마트 가계부 / User level
@@ -140,7 +144,9 @@ Concurrency - None
 
 Other
 
+
 **Use case # 4 : 예산 설정 및 초과 알림**
+
 Summary - 계획된 소비를 위해 사용자가 한 달 지출 한도를 설정하고, 총 지출액이 임계치에 도달하면 알림을 제공한다.
 
 Scope /Level - 스마트 가계부 / User level
@@ -182,7 +188,9 @@ Concurrency - None
 
 Other
 
+
 **Use case # 5 : 데이터 내보내기**
+
 Summary - 시스템에 저장된 데이터를 외부 파일(CSV)로 다운로드하여 다른 환경에 활용하거나 백업할 수 있도록 한다.
 
 Scope /Level - 스마트 가계부 / User level
@@ -224,7 +232,9 @@ Concurrency - None
 
 Other
 
+
 **Use case # 6 : 통계 시각화**
+
 Summary - 사용자의 지금까지 입력한 재정 상태를 막대 그래프와 원그래프를 이용하여 직관적으로 제공하고, 통계 요약도 제공한다.
 
 Scope /Level - 스마트 가계부 / User level
@@ -265,7 +275,9 @@ Concurrency - None
 
 Other
 
+
 **Use case # 7 : 문의 및 피드백**
+
 Summary - 사용자가 분석 결과에 대한 궁금증이나 시스템 개선 사항을 “Q&A” 버튼을 클릭해 등록하고, 답변을 확인할 때 사용한다.
 
 Scope /Level - 스마트 가계부 / User level
@@ -341,9 +353,7 @@ AnalysisEngine의 분석 결과를 바탕으로 클라이언트에게 보여줄 
 
 ## 4. User Interface prototype 
 <img width="885" height="1093" alt="비밀번호를 잊으셨나요" src="https://github.com/user-attachments/assets/f01aa975-bf4d-4700-ad65-bf260c9e77ca" />
-
 <img width="892" height="966" alt="비밀번호 확인" src="https://github.com/user-attachments/assets/a13b94f1-a149-4b3a-852d-bfda9d38d297" />
-
 <img width="1786" height="1546" alt="15,000원" src="https://github.com/user-attachments/assets/b7841bbf-3647-452d-82ff-4e71ca3fe5d1" />
 
 처음 시스템을 실행하면 로그인 및 회원가입 화면이 보인다. 
@@ -351,52 +361,46 @@ AnalysisEngine의 분석 결과를 바탕으로 클라이언트에게 보여줄 
 
 
 <img width="1789" height="1538" alt="15,000원" src="https://github.com/user-attachments/assets/e4eecb84-94db-4736-817e-580045317d5d" />
-
 + 버튼을 누르면 지출 추가, 분석, 추천/피드백, 다운로드, 은행 연동, Q&A 버튼이 표시된다.
 또한 지출 내역을 펜 모양 버튼을 클릭해 수정할 수 있고, 휴지통 모양 버튼을 클릭해 삭제할 수 있다.
 
 
 <img width="1786" height="1542" alt="15,000원" src="https://github.com/user-attachments/assets/808e7d1d-18f4-4f7b-837e-c818cc222321" />
-
 지출 추가 버튼을 누르면 화면과 같이 나온다. 클라이언트가 날짜를 변경하고 싶다면 직접 변경이 가능하며 자동 분류 또는 수동 분류를 선택한다. 자동 분류를 선택했으면 금액을 입력하고 메모를 입력하고, 수동 분류를 선택했다면 카테고리와 금액을 입력한다.
 
 
 <img width="1770" height="1542" alt="3 가계부" src="https://github.com/user-attachments/assets/a4cf6343-d0af-45e9-8fa9-36d0c46a4c28" />
-
 분석 버튼을 클릭하면 화면과 같이 나온다. 막대 그래프, 원그래프를 보여주고, 통계 요약은 총 지출 건수, 평균 지출액, 가장 많이 쓴 카테고리 세 가지를 보여준다.
 
-<img width="1992" height="1661" alt="59,850원" src="https://github.com/user-attachments/assets/8198a891-3b44-4187-abcd-0bbd13fc7bc6" />
 
+<img width="1992" height="1661" alt="59,850원" src="https://github.com/user-attachments/assets/8198a891-3b44-4187-abcd-0bbd13fc7bc6" />
 추천&피드백 버튼을 클릭하면 화면과 같이 나온다.
 
 
 <img width="1786" height="1542" alt="15,000원" src="https://github.com/user-attachments/assets/3f1f0318-cc41-46c9-b3c0-fc8fbcc767c2" />
-
 다운로드 버튼을 클릭하면 화면과 같이 나온다. csv 파일로 기기에 저장된다.
 
 
 <img width="1784" height="1544" alt="8 가계부" src="https://github.com/user-attachments/assets/51b39e04-ffb5-48d0-b8be-583524542b6d" />
-
 <img width="1788" height="1546" alt="8 가계부" src="https://github.com/user-attachments/assets/c865c22f-b21c-4460-b2e0-9b68636dbb5c" />
-
 은행 연동 버튼을 클릭하면 화면과 같이 나온다. 연동하고 싶은 은행을 클릭하면 해당 은행의 지출 금액이 나타난다.
 
 
 <img width="1786" height="1542" alt="6 가계부" src="https://github.com/user-attachments/assets/c5ac58cc-446b-4363-af57-7ac33c657304" />
-
 <img width="1786" height="1542" alt="8 가계부" src="https://github.com/user-attachments/assets/b184b4ca-78d6-4ad0-a88f-7a6cda3db38f" />
-
 Q&A 버튼을 클릭하면 화면과 같이 나온다. 자주 묻는 질문 네 가지가 나오며, 그 외에 문의 사항이나 시스템에 관련된 피드백이 있다면 직접 질문하기 버튼을 클릭해 문의 내용을 입력 후 전송한다.
 
 
 <img width="1788" height="1544" alt=" 가계부" src="https://github.com/user-attachments/assets/33996a28-759f-4746-9138-819d9ba9899e" />
-
 설정 버튼을 클릭하면 예산 설정이 가능하다.
 
 ## 5. Glossary
 가계부 시스템 - 가계부를 사용하고 싶은 사람들 모두가 사용할 수 있는 앱
+
 사용자 - 스마트 가계부를 사용하는 사용자
+
 데이터 - 사용자가 입력한 데이터
+
 통계 그래프 - 사용자가 입력한 데이터를 바탕으로 한 통계
 
 ## 6. References
